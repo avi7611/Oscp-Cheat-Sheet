@@ -1,0 +1,4 @@
+USER [username]
+PASS [password]
+LIST 
+RETR [int]

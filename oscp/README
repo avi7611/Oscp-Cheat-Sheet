@@ -1,0 +1,18 @@
+# Web
+Always check the source code with Ctrl+U
+
+# Entry point
+Enumerate everything, including enumerating what you just enumerated
+
+# Exploits
+Search for publicly available exploits or PoC to make sure no unnecessary shit is happening when exploiting it
+
+# Enumeration
+If the web application redirects everything back into it's main page, try enumerating it with Burp Suite built-in Spider tool
+
+# Bypassing User-Agent Blacklist
+Some application will not respond to common directory enumeration tool(Gobuster/Dirb) because it blocks the tool by checking the User Agent.
+To bypass this, simply run the tool with a custom User Agent with it.
+dirb http://10.10.10.58:3000
+WARNING: NOT_FOUND[] page not stable, unable to determine the correct URLs {200}.
+dirb http://10.10.10.58:3000 -a Custom User Agent

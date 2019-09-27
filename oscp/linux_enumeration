@@ -1,0 +1,3 @@
+#GIVE ALL PERMISSION IF SHIT DOESN'T GO AS INTENDED (CHMOD 777)
+find . ! -user root -maxdepth 1 2>/dev/null
+ps aux | grep cron

@@ -1,0 +1,22 @@
+Login:
+<command-identifier> login <username> <password>
+sushi login ayush jiujitsu
+
+List email-status in all directory:
+<command-identifier> list <directory> <search-pattern>
+sushi list "" "*"
+
+Find email:
+<command-identifier> status <email-status> <search-param>
+#<email-status> is case sensitive!
+sushi status Drafts (messages)
+
+Show email:
+<command-identifier> select <email-status>
+sushi select Drafts
+<command-identifier> fetch <mail-id> <fetch-param>
+sushi fetch * body[]
+
+Reference:
+https://www.atmail.com/blog/imap-101-manual-imap-sessions/
+http://blog.andrewc.com/2013/01/connect-to-imap-server-with-telnet/

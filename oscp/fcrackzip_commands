@@ -1,0 +1,1 @@
+fcrackzip <zip-file> -D -p ~/Downloads/rockyou.txt

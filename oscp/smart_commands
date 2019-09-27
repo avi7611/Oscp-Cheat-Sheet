@@ -1,0 +1,12 @@
+#xxd -r by default will convert into binary and not plaintext, append -p flag to output as plaintext
+#reverse operation: convert (or patch) hexdump into binary. If not writing to stdout, xxd writes into its output file without truncating it. Use the combination -r -p to read plain hexadecimal dumps without line number information and without a particular column layout.
+cat hype_key | xxd -r -p
+
+#Some servers doesn't response with 404 error code and returns a wildcard response, which makes it hard to enumerate properly
+#Using wfuzz we can customize the output based on the response length from the server
+wfuzz -u http://10.10.10.96/FUZZ -w ~/DirBuster-0.12/directory-list-2.3-medium.txt --hl 0
+
+#You can get a shell when logged in as Wordpress admin by modifying the PHP script
+
+#Kill whatever service is running on specific port
+sudo kill `sudo lsof -t -i:443`

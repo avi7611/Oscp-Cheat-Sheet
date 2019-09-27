@@ -1,0 +1,7 @@
+binwalk <image>
+strings -n 8 <image/file>
+steghide info <image>
+strace <file>
+ltrace <file>
+file <file>
+ls -la <file>

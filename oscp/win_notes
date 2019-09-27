@@ -1,0 +1,22 @@
+# Show all hidden files
+dir /a
+
+Privilege Escalation
+# Check for stored credentials
+cmdkey /list 
+# Check specific user information
+net user <username>
+# Check user privileges
+whoami /priv
+Check for SeImpersonatePrivilege && SeAssignPrimaryToken whether it is enabled. If yes, use lonely potato exploit
+https://hunter2.gitbook.io/darthsidious/privilege-escalation/token-impersonation
+
+IIS/.NET server
+# Enumerate for these extensions
+exe
+config
+aspx
+asp
+
+Cheat Sheets
+https://www.peerlyst.com/posts/download-remote-payload-and-execute-arbitrary-code-the-pentester-cheat-sheet-iheb-ben-salem

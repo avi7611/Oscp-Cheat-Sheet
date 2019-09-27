@@ -1,0 +1,8 @@
+mysql -u <username> -p <database>;
+show databases;
+use <table>;
+show tables;
+select * from <table>;
+
+Reference:
+http://www.mysqltutorial.org/mysql-cheat-sheet.aspx

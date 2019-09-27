@@ -1,0 +1,2 @@
+host -t axfr <domain> <ip>
+dig axfr @<ip> <domain>

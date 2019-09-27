@@ -1,0 +1,35 @@
+Check for python or python3
+# Protips
+- md5sum to determine the same file
+- Always, Check, the, Source, Codes.
+
+#Enumeration
+- Enumerate directories and kernel versions
+- Take a note of what files had been found because it may be useful later
+- Upload LinEnum.sh with thorough as enabled
+- Check for hidden docker/containers
+- Find all files owned by low-privilege user
+
+#CTF-style enumeration
+- Check config.php
+- Enumerate all PHP scripts to find hardcoded credentials
+- Find all '.sh' scripts with 'find / -name "*.sh" 2>/dev/null'
+
+#Backdoor
+- Check for SSH private key
+- Leave a reverse shell in the web directory
+
+# Find sudo permissions
+sudo -l
+- Not recommended without user's passwd
+- Look for .sudo_as_admin_successful file in home directory
+
+# Find setuid files
+find / -perm -u=s 2>/dev/null
+- Hijack directory if command name not using fullpath (refer to linux_directory_hijacking)
+
+# Check for local services
+ps -aux | grep root
+ps -U root
+sockstat -l
+- Pivot with SSH tunneling if necessary
