@@ -1,0 +1,65 @@
+#OSCP
+Oscp vs htb
+https://www.reddit.com/r/oscp/comments/a2jfc9/compare_oscp_with_htb/
+https://blackwintersecurity.com/
+https://forum.hackthebox.eu/discussion/612/oscp-practice
+https://www.reddit.com/r/oscp/comments/a9e2yv/from_0_to_oscp_in_90days/
+
+Oscp like htb
+https://i.imgur.com/XwyVmA3.jpg
+
+Guide:-
+https://medium.com/@parthdeshani/how-to-pass-oscp-like-boss-b269f2ea99d
+
+
+Tools 
+https://github.com/codingo/Reconnoitre
+
+Upgrading shells
+https://netsec.ws/?p=337
+
+
+
+
+
+
+Other
+Andriod hack
+https://www.youtube.com/watch?v=waTGCAgKIM0
+
+https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
+https://netsec.ws/?p=337
+https://www.hackingarticles.in/linux-privilege-escalation-using-suid-binaries/
+
+JSON token
+https://medium.com/dev-bits/a-guide-for-adding-jwt-token-based-authentication-to-your-single-page-nodejs-applications-c403f7cf04f4
+
+oscp:-
+https://www.exploit-db.com/exploits/638
+https://recipeforroot.com/
+
+https://pbs.twimg.com/media/DAZsE2VUQAA_bpZ.jpg:large
+https://zayotic.com/posts/oscp-reference/
+
+
+
+
+Window privesc:-
+http://www.fuzzysecurity.com/tutorials/16.html
+https://github.com/abatchy17/WindowsExploits
+https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_windows.html
+
+https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
+https://www.roguesecurity.in/2018/12/02/a-guide-for-windows-penetration-testing/
+https://xapax.gitbooks.io/security/content/privilege_escalation_windows.html
+
+
+
+
+IMPORTANT****
+snapd
+https://github.com/initstring/dirty_sock
+
+Breaking restrected shells
+https://speakerdeck.com/knaps/escape-from-shellcatraz-breaking-out-of-restricted-unix-shells
+
